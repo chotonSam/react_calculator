@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 4.5rem);
-  grid-template-rows: minmax(150px, auto) repeat(5, 4.5rem);
+  grid-template-rows: minmax(200px, auto) repeat(5, 4.5rem);
   grid-gap: 1rem;
   padding: 30px 25px;
   text-align: center;
   justify-content: center;
   align-content: center;
-  margin-top: 100px;
+  margin-top: 20px;
 
   background: #1a1b28;
 `;
@@ -18,7 +18,7 @@ export const Screen = styled.div`
   grid-column: 1 / -1;
   font-family: 'Berkshire Swash', cursive;
   color: white;
-  padding: 20px 0px 20px 20px;
+  padding: 20px 10px 20px 20px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -46,7 +46,7 @@ export const Current = styled.div`
 export const Previous = styled.div`
   font-size: 1.5rem;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 20px;
 
   span {
     color: #52c9dc;
