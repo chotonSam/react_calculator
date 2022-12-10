@@ -107,12 +107,12 @@ const Calculator = () => {
         <Button onClick={numberHandler}>1</Button>
         <Button onClick={numberHandler}>2</Button>
         <Button onClick={numberHandler}>3</Button>
-        <Button operation spanTwoRow={2} onClick={operationHandler}>
+        <Button operation   onClick={operationHandler}>
           +
         </Button>
         <Button onClick={numberHandler}>.</Button>
         <Button onClick={numberHandler}>0</Button>
-        <Button operation onClick={equalHandler}>
+        <Button operation spanTwo={2} onClick={equalHandler}>
           =
         </Button>
       </Container>
@@ -120,4 +120,5 @@ const Calculator = () => {
   );
 };
 
+// spanTwoRow={2}
 export default Calculator;

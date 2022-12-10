@@ -9,14 +9,17 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
   align-content: center;
-  margin-top: 20px;
+  @media only screen and (max-width: 576px) {
+    margin-top: 10px;
+  }
+  margin-top: 100px;
 
   background: #1a1b28;
 `;
 
 export const Screen = styled.div`
   grid-column: 1 / -1;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
   color: white;
   padding: 20px 10px 20px 20px;
   display: flex;
@@ -54,13 +57,13 @@ export const Previous = styled.div`
 
 export const Button = styled.button`
   cursor: pointer;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
   border-radius: 6px;
   font-size: 1.8rem;
   color: white;
   border: none;
   background-color: #1e2435;
-  &:focus {
+  &:hover {
     background-color: #242730;
   }
 
