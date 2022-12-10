@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 4.5rem);
-  grid-template-rows: minmax(200px, auto) repeat(5, 4.5rem);
+  grid-template-rows: minmax(150px, auto) repeat(5, 4.5rem);
   grid-gap: 1rem;
   padding: 30px 25px;
   text-align: center;
@@ -49,7 +49,7 @@ export const Current = styled.div`
 export const Previous = styled.div`
   font-size: 1.5rem;
   font-weight: bold;
-
+padding-top: 20px;
   span {
     color: #52c9dc;
   }
