@@ -9,10 +9,6 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
   align-content: center;
-  @media only screen and (max-width: 576px) {
-    margin-top: 10px;
-  }
-  margin-top: 100px;
 
   background: #1a1b28;
 `;
