@@ -46,7 +46,6 @@ export const Current = styled.div`
 export const Previous = styled.div`
   font-size: 1.5rem;
   font-weight: bold;
-  padding-top: 20px;
 
   span {
     color: #52c9dc;
@@ -61,7 +60,7 @@ export const Button = styled.button`
   color: white;
   border: none;
   background-color: #1e2435;
-  &:hover {
+  &:focus {
     background-color: #242730;
   }
 
