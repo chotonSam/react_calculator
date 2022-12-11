@@ -30,6 +30,8 @@ const Calculator = () => {
 
   const equalHandler = () => {
     let value = compute();
+    if (previous && !current) SetCurrent(previous);
+    SetPrevious("");
 
     if (value === undefined || value == null) return;
 
@@ -79,7 +81,7 @@ const Calculator = () => {
           <Current carr={current}>{current}</Current>
           <Previous>
             {previous}
-            <span > {operationValue} </span>
+            <span> {operationValue} </span>
             {previous ? current : ""}
           </Previous>
         </Screen>
@@ -107,7 +109,7 @@ const Calculator = () => {
         <Button onClick={numberHandler}>1</Button>
         <Button onClick={numberHandler}>2</Button>
         <Button onClick={numberHandler}>3</Button>
-        <Button operation   onClick={operationHandler}>
+        <Button operation onClick={operationHandler}>
           +
         </Button>
         <Button onClick={numberHandler}>.</Button>
