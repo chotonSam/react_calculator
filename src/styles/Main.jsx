@@ -31,7 +31,7 @@ export const Screen = styled.div`
 `;
 
 export const Current = styled.div`
-  font-size: 2.7rem;
+  font-size: 2.8rem;
   /* font-weight: bold; */
   padding: 20px 0;
   ${({ carr }) =>
@@ -41,7 +41,7 @@ export const Current = styled.div`
     position: absolute;
     content: "=";
     right: 100%;
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     color: #52c9dc;
   }
 `;
