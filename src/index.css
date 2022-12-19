@@ -23,7 +23,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .App {
-  display: grid;
+  display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  height: 100vh;
 }
